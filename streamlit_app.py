@@ -1,6 +1,6 @@
 import streamlit as st
 
-# ----------- INITIAL BOOK DATABASE -----------
+# --------- INITIAL BOOK DATABASE ---------
 books = [
     "The Hobbit",
     "1984",
@@ -9,14 +9,14 @@ books = [
     "The Great Gatsby"
 ]
 
-# ----------- APP TITLE -----------
+# --------- APP TITLE ---------
 st.title("📚 Book Checker App")
 st.write("Enter a book title to check if it exists in the database.")
 
-# ----------- USER INPUT -----------
+# --------- USER INPUT ---------
 user_input = st.text_input("Book Title")
 
-# ----------- CHECK BUTTON -----------
+# --------- CHECK BUTTON ---------
 if st.button("Check Book"):
     if user_input.strip() == "":
         st.warning("Please enter a book title.")
