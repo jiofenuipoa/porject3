@@ -1,5 +1,7 @@
 import streamlit as st
 
+books = []
+
 # --------- APP TITLE ---------
 st.title("📚 Book Checker App")
 st.write("Enter a book title to check if it exists in the database.")
