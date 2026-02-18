@@ -27,7 +27,7 @@ if st.button("Check Book"):
 
 # Създаваме празен списък
 if "books" not in st.session_state:
-    st.session_state.books = []
+    books = []
 
 # Полета за въвеждане
 title = st.text_input("Заглавие")
@@ -39,7 +39,7 @@ if st.button("Добави книга"):
         "title": title,
         "author": author
     }
-    st.session_state.books.append(book)
+    books.append(book)
     st.success("Книгата е добавена!")
 
 # Показване на книгите
