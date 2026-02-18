@@ -1,14 +1,5 @@
 import streamlit as st
 
-# --------- INITIAL BOOK DATABASE ---------
-books = [
-    "The Hobbit",
-    "1984",
-    "Pride and Prejudice",
-    "To Kill a Mockingbird",
-    "The Great Gatsby"
-]
-
 # --------- APP TITLE ---------
 st.title("📚 Book Checker App")
 st.write("Enter a book title to check if it exists in the database.")
