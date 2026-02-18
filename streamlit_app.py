@@ -44,4 +44,4 @@ if st.button("Добави книга"):
 
 # Показване на книгите
 st.write("### Списък с книги:")
-st.write(st.session_state.books)
+st.write(books)
