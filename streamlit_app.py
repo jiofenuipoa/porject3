@@ -31,10 +31,7 @@ author = st.text_input("Автор")
 
 # Бутон за добавяне
 if st.button("Добави книга"):
-    book = {
-        "title": title,
-        "author": author
-    }
+    book = [title]
     books.append(book)
     st.success("Книгата е добавена!")
 
