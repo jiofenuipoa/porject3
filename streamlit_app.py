@@ -25,10 +25,6 @@ if st.button("Check Book"):
     else:
         st.error("The book is NOT in the database.")
 
-# Създаваме празен списък
-if "books" not in st.session_state:
-    books = []
-
 # Полета за въвеждане
 title = st.text_input("Заглавие")
 author = st.text_input("Автор")
